@@ -57,7 +57,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okul.projeleri.proje3", "Okul.projeleri.proje3\Okul.projeleri.proje3.csproj", "{C9C0FBB9-8DE1-45BD-B15C-5330F936D58E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personel.Maas", "Personel.Maas\Personel.Maas.csproj", "{75B55D15-3BF4-43CE-98DC-22D91088CAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personel.Maas", "Personel.Maas\Personel.Maas.csproj", "{75B55D15-3BF4-43CE-98DC-22D91088CAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emlakci.APP", "Emlakci.APP\Emlakci.APP.csproj", "{F5CB2ADA-5FFB-49BB-B169-66AD7346BDA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{75B55D15-3BF4-43CE-98DC-22D91088CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B55D15-3BF4-43CE-98DC-22D91088CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B55D15-3BF4-43CE-98DC-22D91088CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CB2ADA-5FFB-49BB-B169-66AD7346BDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CB2ADA-5FFB-49BB-B169-66AD7346BDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CB2ADA-5FFB-49BB-B169-66AD7346BDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CB2ADA-5FFB-49BB-B169-66AD7346BDA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
