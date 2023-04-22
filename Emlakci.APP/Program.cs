@@ -1,4 +1,5 @@
 ﻿using System;
+using KazanMyo.Emlakci.Lib;
 
 namespace Emlakci.APP
 {
@@ -7,55 +8,20 @@ namespace Emlakci.APP
         static void Main(string[] args)
         {
             Ev evim3 = new Ev();
-           
+
+            Console.WriteLine(Ev.Sayac);
+            SatilikEv se =new SatilikEv();
+            se.Katno = 2;
+            se.Alan =100.12;
+            se.Semt = "Gazi";
+            se.SatisFiyat = 1300000;
+            se.Odasayisi =4;
+            se.
         }
     }
 
-    class Ev
-    {
-        public Ev()
-        {
-
-        }
-        public Ev(int odasayisi, int katno,  double alan)
-        {
-            this.Odasayisi = odasayisi;
-            this.Katno = katno;
-            this.Semt = "Gazi";
-            this.Alan = alan;
-        }
-        public Ev(int odasayisi, int katno,string semt, double alan)
-        {
-            this.Odasayisi = odasayisi;
-            this.Katno = katno;
-            this.Semt = semt;
-            this.Alan = alan;
-        }
-
-
-        private int odasayisi;
-
-        public int Odasayisi
-        {
-            get { return odasayisi; }
-            set { odasayisi = value; }
-        }
-
-        public string Semt { get => semt; set => semt = value;  }
-
-        public int Katno { get => katno; set => katno = value; }
-
-        private string semt;
-        private int katno;
-
-        public double Alan { get; set; }
-
-        public string EvBilgileri()
-        {
-            return $"Odasayısı : {this.odasayisi}\nAlan:{this.Alan}\nSemt:{this.Semt}\nKatno:{this.Katno}";
-        }
-
-    }
+   
+    
 }
 
 
