@@ -48,7 +48,7 @@ namespace KazanMyo.Emlakci.Lib
         public double Alan { get; set; }
         public static int Sayac { get => sayac; }
 
-        public string EvBilgileri()
+        public  string EvBilgileri()
         {
             return $"Odasayısı : {this.odasayisi}\nAlan:{this.Alan}\nSemt:{this.Semt}\nKatno:{this.Katno}";
         }
