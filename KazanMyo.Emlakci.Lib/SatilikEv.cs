@@ -8,7 +8,7 @@ namespace KazanMyo.Emlakci.Lib
     {
         public double SatisFiyat { get; set; }
 
-        public new string EvBilgileri()
+        public override string EvBilgileri()
         {
             return $"{base.EvBilgileri()}\nSatış Fiyatı : {SatisFiyat}";
         }

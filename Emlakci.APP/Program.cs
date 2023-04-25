@@ -35,18 +35,35 @@ namespace Emlakci.APP
 
             for (int i = 0; i < evler.Length; i++)
             {
-               if(evler[i] is SatilikEv)
-                {
-                    SatilikEv sev = (SatilikEv)(evler[i]);
+                if (evler[i] is SatilikEv)
+                { 
+                    SatilikEv sev = (SatilikEv)evler[i];
                     Console.WriteLine(sev.EvBilgileri());
-                    Console.WriteLine();
                 }
-               else if (evler[i] is KiralikEv)
+                else if (evler[i] is KiralikEv)
                 {
-                    KiralikEv kev = (KiralikEv)(evler[i]);
+                    KiralikEv kev = (KiralikEv)evler[i];
                     Console.WriteLine(kev.EvBilgileri());
-                    Console.WriteLine();
                 }
+
+
+
+            }
+
+            //for (int i = 0; i < evler.Length; i++)
+            //{
+            //   if(evler[i] is SatilikEv)
+            //    {
+            //        SatilikEv sev = (SatilikEv)(evler[i]);
+            //        Console.WriteLine(sev.EvBilgileri());
+            //        Console.WriteLine();
+            //    }
+            //   else if (evler[i] is KiralikEv)
+            //    {
+            //        KiralikEv kev = (KiralikEv)(evler[i]);
+            //        Console.WriteLine(kev.EvBilgileri());
+            //        Console.WriteLine();
+            //    }
                 
                     
 

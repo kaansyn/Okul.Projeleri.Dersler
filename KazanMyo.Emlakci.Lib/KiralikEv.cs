@@ -11,7 +11,7 @@ namespace KazanMyo.Emlakci.Lib
         public double Depozito { get; set; }
 
 
-        public  new string EvBilgileri()
+        public  override string EvBilgileri()
         {
             return $"{base.EvBilgileri()}\nKira Fiyatı : {KiraFiyatı}\nDepozito : {Depozito}";
 
